@@ -265,9 +265,7 @@ footer {
   z-index: 1000;
 }
 
-/* ========================= */
-/* RESPONSIVIDADE SIMPLES    */
-/* ========================= */
+
 @media (max-width: 768px) {
     nav a {
         display: block;
@@ -275,46 +273,4 @@ footer {
         margin: 10px 0;
     }
 
-    img {
-        width: 90%;
-        height: auto;
-        margin: 10px auto;
-        display: block;
-    }
-
-    h2, h3, h4, p {
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: left;
-    }
-
-    table {
-        width: 100%;
-        font-size: 16px;
-    }
-
-    #projetos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .form-container {
-        margin: 10px;
-        width: 95%;
-    }
-
-    .contact-info {
-        margin: 20px auto;
-        width: 95%;
-    }
-
-    .icone-instagram,
-    .icone-rede.linkedin,
-    .icone-rede.github {
-        margin: 20px auto;
-        display: block;
-        text-align: center;
-    }
-}
+  
