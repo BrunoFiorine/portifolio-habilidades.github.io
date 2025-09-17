@@ -277,18 +277,17 @@ footer {
 }
 
 
-/* --- RESPONSIVIDADE COMPLETA --- */
 
-/* ----- Desktop grande (até 2400px) ----- */
+
 @media (max-width: 2400px) {
-    /* Mantém layout desktop atual */
+    
     body, header, main, footer, .form-container, .contact-info, #gostos-container, #projetos, .video-container {
         max-width: 2400px;
         margin: 0 auto;
     }
 }
 
-/* ----- Tablet (1024px a 768px) ----- */
+
 @media (max-width: 1024px) {
     nav a {
         font-size: 35px !important;
@@ -387,7 +386,7 @@ footer {
     }
 }
 
-/* ----- Celular (até 768px) ----- */
+
 @media (max-width: 768px) {
 
     nav a {
@@ -404,9 +403,17 @@ footer {
         display: block !important;
     }
 
-    h2, h3, h4, h5, h6, p, h9 {
+     h3, h4, h5, h6, p, h9 {
         text-align: center !important;
         margin-left: 0 !important;
+        padding: 0 10px !important;
+    }
+
+
+    h2 {
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-top: 300px;
         padding: 0 10px !important;
     }
 
@@ -519,5 +526,6 @@ footer {
         padding: 20px 0 !important;
     }
 }
+
 
 
