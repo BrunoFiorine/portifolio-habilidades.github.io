@@ -274,4 +274,114 @@ footer {
   margin-left: 1401px;
   margin-top: 15px;
   z-index: 1000;
+
 }
+
+
+
+
+
+
+/* Tornar imagens e vídeos responsivos */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajustar tabelas para caber em telas pequenas */
+table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Ajustar containers flexíveis */
+#gostos-container, #projetos {
+    flex-wrap: wrap; /* reforça o comportamento responsivo */
+    justify-content: center;
+}
+
+/* Menu responsivo: links ocupam linha em telas pequenas */
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Ajuste ícones das redes sociais para não sair da tela em mobile */
+.icone-instagram, .icone-rede {
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Footer responsivo */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media queries para telas menores */
+@media (max-width: 1024px) {
+    h2, h3, h4, p {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
+        margin-left: auto;
+        right: 10px;
+    }
+
+    #video .video-player {
+        width: 100%;
+        height: auto;
+    }
+
+    #gostos-container div {
+        margin: 10px 0;
+    }
+
+    #projetos {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 60px;
+        margin: 50px;
+    }
+
+    .button-group button {
+        font-size: 25px;
+        padding: 8px 30px;
+        margin: 15px;
+    }
+
+    .form-container {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    h9 {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+}
+
