@@ -304,7 +304,6 @@ footer {
     h2, h3, h4, h5, h6, p, h9 {
         text-align: center !important;
         margin-left: 0 !important;
-        margin-top: 50px;
         padding: 0 20px !important;
     }
 
@@ -527,6 +526,7 @@ footer {
         padding: 20px 0 !important;
     }
 }
+
 
 
 
