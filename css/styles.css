@@ -400,7 +400,7 @@ footer {
         width: 150px !important;
         height: auto !important;
         margin: 0 auto !important;
-        margin-top: 30px;
+        margin-top: 70px;
         display: block !important;
     }
 
@@ -429,6 +429,7 @@ footer {
         width: 150px !important;
         height: auto !important;
         margin: 0 auto !important;
+        margin-left: 20px;
     }
 
     table {
@@ -527,6 +528,7 @@ footer {
         padding: 20px 0 !important;
     }
 }
+
 
 
 
