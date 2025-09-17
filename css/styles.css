@@ -1,3 +1,4 @@
+/* --- SEU CSS ORIGINAL --- */
 body {
     background-color: rgb(252, 251, 251);
     color: rgb(0, 0, 0);
@@ -26,76 +27,29 @@ nav a {
     margin: 30px;
 }
 
-
+/* títulos originais */
 h1 { font-size: 40px; }
-
-h2 { 
-    font-size: 30px;
-    color: #000000;
-    margin-top: -270px;
-    margin-left: 315px;
-}
-
-h3 {
-    font-size: 30px;
-    color: #000000;
-    margin-top: 30px;
-    margin-left: 315px;
-}
-
-h4 {
-    font-size: 30px;
-    color: #000000;
-    margin-top: 30px;
-    margin-left: 315px;
-}
-
-h5 {
-    font-size: 30px;
-    color: #000000;
-    margin-top: 60px;
-    text-align: center;
-}
-
-h6 {
-    font-size: 80px;
-    color: #000000;
-    margin: 100px;
-    text-align: center;
-}
-
-h7, h8 {
-    color: #1411ec;
-    font-family: Arial, sans-serif;
-    margin-bottom: 100px;
-    font-size: 35px;
-}
-
-h9 {
-    color: #000000;
-    font-family: Arial, sans-serif;
-    font-size: 35px;
-    margin-left: 1030px;
-}
-
+h2 { font-size: 30px; color: #000; margin-top: -270px; margin-left: 315px; }
+h3 { font-size: 30px; color: #000; margin-top: 30px; margin-left: 315px; }
+h4 { font-size: 30px; color: #000; margin-top: 30px; margin-left: 315px; }
+h5 { font-size: 30px; color: #000; margin-top: 60px; text-align: center; }
+h6 { font-size: 80px; color: #000; margin: 100px; text-align: center; }
+h7, h8 { color: #1411ec; font-family: Arial, sans-serif; margin-bottom: 100px; font-size: 35px; }
+h9 { color: #000; font-family: Arial, sans-serif; font-size: 35px; margin-left: 1030px; }
 
 p {
     font-size: 20px;
-    color: #000000;
+    color: #000;
     margin-top: -25px;
     margin-left: 315px;
     margin-bottom: 10px;
     line-height: 1.5;  
 }
 
-p1, p2, p3, p4 {
-    font-size: 30px;
-}
-
+p1, p2, p3, p4 { font-size: 30px; }
 p2 { margin-left: 30px; }
 p3 { margin-right: -1000px; }
 p4 { font-size: 20px; margin-right: -1000px; }
-
 
 table {
     width: 70%;
@@ -122,7 +76,6 @@ tr:nth-child(even) {
     color: black; 
 }
 
-
 footer {
     text-align: center;
     padding: 20px;
@@ -130,7 +83,6 @@ footer {
     color: #f2f2f2;
     margin-top: 710px;
 }
-
 
 .form-container {
     background-color: #ebf0f6;
@@ -142,65 +94,24 @@ footer {
     margin-top: 30px; 
 }
 
-.form-container h2 {
-    text-align: center;
-    color: #333;
-    margin-top: 0;
+/* formulário */
+.form-container h2 { text-align: center; color: #333; margin-top: 0; }
+.form-container p { text-align: center; margin-bottom: 2rem; color: #666; }
+.form-group { margin-bottom: 1.5rem; }
+.form-group label { display: block; margin-bottom: 0.5rem; font-weight: 700; }
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: #3a24e1; outline: none; box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
 }
 
-.form-container p {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #666;
-}
-
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-    border-color: #3a24e1;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
-}
-
-.button-group {
-    text-align: center;   
-}
-
+.button-group { text-align: center; }
 .button-group button {
-    padding: 10px 50px;
-    margin: 25px;
-    border: none;
-    border-radius: 50px;
-    background-color: #2427e2;
-    color: white;
-    cursor: pointer;
-    font-size: 40px;
+    padding: 10px 50px; margin: 25px; border: none; border-radius: 50px;
+    background-color: #2427e2; color: white; cursor: pointer; font-size: 40px;
 }
-
-.button-group button:hover {
-    background-color: #626bc0;
-}
-
+.button-group button:hover { background-color: #626bc0; }
 
 .contact-info {
     margin-top: -1000px;       
@@ -212,66 +123,70 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-.info h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-right: 100px;    
-    color: #1411ec;
-    text-align: left;
+.info h2 { font-size: 30px; margin-bottom: 10px; margin-right: 100px; color: #1411ec; text-align: left; }
+.info p { font-size: 14px; margin-bottom: 20px; color: #333; }
+
+.item { display: flex; align-items: center; margin-bottom: 15px; }
+.icon { font-size: 25px; color: #00d4ff; margin-right: 15px; }
+.text strong { display: block; font-size: 16px; color: #000; }
+.info-text p { margin: 0; font-size: 14px; color: #666; }
+
+.icone-instagram { bottom: 20px; margin-left: 1400px; margin-top: -230px; z-index: 1000; }
+.icone-rede.linkedin { bottom: 20px; margin-left: 1390px; margin-top: 10px; z-index: 1000; }
+.icone-rede.github { bottom: 20px; margin-left: 1401px; margin-top: 15px; z-index: 1000; }
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 1024px) {
+    nav a {
+        font-size: 28px;
+        margin: 10px;
+        display: inline-block;
+    }
+    h2, h3, h4, p {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    h6 {
+        font-size: 50px;
+        margin: 50px 0;
+    }
+    table {
+        width: 95%;
+        font-size: 18px;
+    }
+    .contact-info {
+        margin: 20px auto;
+        width: 90%;
+    }
+    .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
+        margin: 20px auto;
+        display: block;
+        position: relative;
+    }
+    footer {
+        margin-top: 100px;
+    }
 }
 
-.info p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.icon {
-    font-size: 25px;
-    color: #00d4ff;
-    margin-right: 15px;
-}
-
-.text strong {
-    display: block;
-    font-size: 16px;
-    color: #000;
-}
-
-.info-text p {
-    margin: 0;
-    font-size: 14px;
-    color: #666;
-}
-
-.icone-instagram {
-  
-  bottom: 20px;
-  margin-left: 1400px;
-  margin-top: -230px;
-  z-index: 1000;
-}
-
-.icone-rede.linkedin {
-    
-  bottom: 20px;   
-  margin-left: 1390px;
-  margin-top: 10px;     
-  z-index: 1000;
-}
-
-
-.icone-rede.github {
-
-  bottom: 20px;
-  margin-left: 1401px;
-  margin-top: 15px;
-  z-index: 1000;
-
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        font-size: 22px;
+        margin: 8px 0;
+    }
+    img {
+        width: 200px;
+        height: auto;
+    }
+    .video-player {
+        width: 100%;
+        height: auto;
+    }
+    .form-container {
+        max-width: 90%;
+    }
 }
