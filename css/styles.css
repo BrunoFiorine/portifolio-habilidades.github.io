@@ -279,40 +279,65 @@ footer {
 
 @media (max-width: 768px) {
 
-    
+    /* MENU - links empilhados */
     nav a {
         display: block;
         margin: 8px 0;
-        font-size: 22px;
-        padding: 8px 15px;
+        font-size: 20px;
+        padding: 8px 12px;
     }
 
-   
+    /* SEÇÃO HOME - imagem centralizada */
+    #home img {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* SOBRE MIM - textos */
+    h2, h3, h4, h5, h6, p, h9 {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    /* SEÇÃO GOSTOS */
     #gostos-container {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 15px;
+        padding: 0 10px;
     }
 
     #gostos-container img {
-        width: 200px;
+        width: 150px;
         height: auto;
         margin: 0 auto;
     }
 
- 
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    /* PROJETOS */
     #projetos {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         padding: 10px;
+        max-width: 100%;
     }
 
     .projeto img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
-   
+    /* FORMULÁRIO */
     .form-container {
         width: 95%;
         padding: 15px;
@@ -324,39 +349,54 @@ footer {
         gap: 10px;
     }
 
-    
+    /* QUADRO DE CONTATO */
     .contact-info {
-        width: 95%;
-        margin: 20px auto;
+        width: 95% !important;
+        margin: 20px auto !important;
         padding: 15px;
-        position: relative;
+        position: relative !important;
+        box-shadow: none;
+    }
+
+    .contact-info h8, .contact-info p4 {
+        text-align: center;
     }
 
     .info-item {
         flex-direction: row;
-        align-items: center;
+        justify-content: flex-start;
         margin-bottom: 10px;
     }
 
     .info-item .icon {
-        font-size: 20px;
-        margin-right: 10px;
+        font-size: 18px;
+        margin-right: 8px;
     }
 
-   
+    /* ÁUDIO */
     #musica {
         width: 95%;
         margin: 20px auto;
-        text-align: left;
+        text-align: center;
     }
 
-  
+    audio {
+        width: 100%;
+    }
+
+    /* VÍDEO */
+    .video-container {
+        width: 100%;
+        margin: 20px auto !important;
+    }
+
     .video-player {
         width: 100%;
         height: auto;
+        max-width: 100%;
     }
 
-   
+    /* REDES SOCIAIS */
     .icone-instagram img,
     .icone-rede.linkedin img,
     .icone-rede.github img {
@@ -365,12 +405,10 @@ footer {
         margin: 5px;
     }
 
-   
+    /* FOOTER */
     footer {
         margin-top: 50px;
         text-align: center;
         padding: 20px 0;
     }
 }
-
-
