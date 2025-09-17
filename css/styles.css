@@ -26,6 +26,7 @@ nav a {
     margin: 30px;
 }
 
+
 h1 { font-size: 40px; }
 
 h2 { 
@@ -77,6 +78,7 @@ h9 {
     margin-left: 1030px;
 }
 
+
 p {
     font-size: 20px;
     color: #000000;
@@ -93,6 +95,7 @@ p1, p2, p3, p4 {
 p2 { margin-left: 30px; }
 p3 { margin-right: -1000px; }
 p4 { font-size: 20px; margin-right: -1000px; }
+
 
 table {
     width: 70%;
@@ -119,6 +122,7 @@ tr:nth-child(even) {
     color: black; 
 }
 
+
 footer {
     text-align: center;
     padding: 20px;
@@ -126,6 +130,7 @@ footer {
     color: #f2f2f2;
     margin-top: 710px;
 }
+
 
 .form-container {
     background-color: #ebf0f6;
@@ -196,6 +201,7 @@ footer {
     background-color: #626bc0;
 }
 
+
 .contact-info {
     margin-top: -1000px;       
     margin-left: 1100px;      
@@ -245,6 +251,7 @@ footer {
 }
 
 .icone-instagram {
+  
   bottom: 20px;
   margin-left: 1400px;
   margin-top: -230px;
@@ -252,15 +259,19 @@ footer {
 }
 
 .icone-rede.linkedin {
+    
   bottom: 20px;   
   margin-left: 1390px;
   margin-top: 10px;     
   z-index: 1000;
 }
 
+
 .icone-rede.github {
+
   bottom: 20px;
   margin-left: 1401px;
   margin-top: 15px;
   z-index: 1000;
+
 }
