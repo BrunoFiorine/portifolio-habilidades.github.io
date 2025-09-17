@@ -277,12 +277,142 @@ footer {
 }
 
 
+/* --- RESPONSIVIDADE CELULAR ATÉ 768px --- */
 @media (max-width: 768px) {
+
+    /* MENU - links empilhados */
     nav a {
-        display: block;
-        margin: 8px 0;
-        font-size: 22px;
-        padding: 8px 12px;
+        display: block !important;
+        margin: 8px 0 !important;
+        font-size: 22px !important;
+        padding: 8px 12px !important;
     }
 
+    /* HOME - imagem centralizada */
+    #home img {
+        width: 150px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    /* SOBRE MIM - textos centralizados */
+    h2, h3, h4, h5, h6, p, h9 {
+        text-align: center !important;
+        padding: 0 10px !important;
+    }
+
+    /* GOSTOS - coluna e centralizado */
+    #gostos-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        padding: 0 10px !important;
+    }
+
+    #gostos-container img {
+        width: 150px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+    }
+
+    /* Tabela de preferências */
+    table {
+        width: 100% !important;
+        font-size: 14px !important;
+    }
+
+    th, td {
+        padding: 5px !important;
+        text-align: center !important;
+    }
+
+    /* PROJETOS - coluna */
+    #projetos {
+        flex-direction: column !important;
+        gap: 15px !important;
+        padding: 10px !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+
+    .projeto img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    /* FORMULÁRIO */
+    .form-container {
+        width: 95% !important;
+        padding: 15px !important;
+        margin: 20px auto !important;
+    }
+
+    .button-group {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    /* QUADRO DE CONTATO */
+    .contact-info {
+        width: 95% !important;
+        margin: 20px auto !important;
+        padding: 15px !important;
+        position: relative !important;
+        box-shadow: none !important;
+    }
+
+    .contact-info h8, .contact-info p4 {
+        text-align: center !important;
+    }
+
+    .info-item {
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        margin-bottom: 10px !important;
+    }
+
+    .info-item .icon {
+        font-size: 18px !important;
+        margin-right: 8px !important;
+    }
+
+    /* ÁUDIO */
+    #musica {
+        width: 95% !important;
+        margin: 20px auto !important;
+        text-align: center !important;
+    }
+
+    audio {
+        width: 100% !important;
+    }
+
+    /* VÍDEO */
+    .video-container, .video-player {
+        width: 100% !important;
+        height: auto !important;
+        margin: 20px auto !important;
+    }
+
+    /* REDES SOCIAIS */
+    .icone-instagram img,
+    .icone-rede.linkedin img,
+    .icone-rede.github img {
+        width: 30px !important;
+        height: auto !important;
+        margin: 5px auto !important;
+        display: block !important;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 50px !important;
+        text-align: center !important;
+        padding: 20px 0 !important;
+    }
+}
+
+
    
+
