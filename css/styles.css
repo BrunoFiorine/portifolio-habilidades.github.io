@@ -1,4 +1,4 @@
-/* --- SEU CSS ORIGINAL --- */
+/* --- SEU CSS ORIGINAL AJUSTADO --- */
 body {
     background-color: rgb(252, 251, 251);
     color: rgb(0, 0, 0);
@@ -131,9 +131,15 @@ footer {
 .text strong { display: block; font-size: 16px; color: #000; }
 .info-text p { margin: 0; font-size: 14px; color: #666; }
 
-.icone-instagram { bottom: 20px; margin-left: 1400px; margin-top: -230px; z-index: 1000; }
-.icone-rede.linkedin { bottom: 20px; margin-left: 1390px; margin-top: 10px; z-index: 1000; }
-.icone-rede.github { bottom: 20px; margin-left: 1401px; margin-top: 15px; z-index: 1000; }
+/* ícones redes sociais */
+.icone-instagram, .icone-rede.linkedin, .icone-rede.github {
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.icone-instagram { margin-left: 1400px; margin-top: -230px; }
+.icone-rede.linkedin { margin-left: 1390px; margin-top: 10px; }
+.icone-rede.github { margin-left: 1401px; margin-top: 15px; }
 
 /* --- RESPONSIVIDADE --- */
 @media (max-width: 1024px) {
@@ -154,15 +160,28 @@ footer {
         width: 95%;
         font-size: 18px;
     }
+
+    /* quadro de contato centralizado no tablet */
     .contact-info {
-        margin: 20px auto;
+        margin: 20px auto !important;
         width: 90%;
-    }
-    .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
-        margin: 20px auto;
-        display: block;
         position: relative;
     }
+
+    /* redes sociais centralizadas e menores */
+    .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
+        margin: 10px auto !important;
+        display: inline-block;
+        position: relative;
+    }
+
+    .icone-instagram img,
+    .icone-rede.linkedin img,
+    .icone-rede.github img {
+        width: 35px;
+        height: auto;
+    }
+
     footer {
         margin-top: 100px;
     }
@@ -179,7 +198,7 @@ footer {
         margin: 8px 0;
     }
     img {
-        width: 200px;
+        width: 150px;
         height: auto;
     }
     .video-player {
@@ -188,5 +207,20 @@ footer {
     }
     .form-container {
         max-width: 90%;
+    }
+
+    /* quadro de contato centralizado e menor no celular */
+    .contact-info {
+        margin: 20px auto !important;
+        width: 95%;
+        position: relative;
+    }
+
+    /* redes sociais menores no celular */
+    .icone-instagram img,
+    .icone-rede.linkedin img,
+    .icone-rede.github img {
+        width: 30px;
+        height: auto;
     }
 }
