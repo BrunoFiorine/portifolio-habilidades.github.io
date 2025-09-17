@@ -1,78 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio de Habilidades - Bruno Fiorine</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfólio de Habilidades - Bruno Mourelhe Fiorine</title>
 </head>
 <body>
+    <header>
+        <h1>Bem Vindo ao meu Portifólio</h1>
+        <h1>Me chamo</h1>
+        <h1>Bruno Mourelhe Fiorine</h1>
+        
+        <nav>
+            <a href="#home">Home</a> 
+            <a href="#gostos">Gostos</a> 
+            <a href="#projetos">Projetos</a> 
+            <a href="#cadastro">Cadastro</a>
+            <a href="#musica">Música</a> 
+            <a href="#video">Vídeo</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Bem-vindo ao meu Portfólio</h1>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
+    <main>
+        <section id="home">
+            <div>
+                <img src="img/fotoperfil.png" alt="Perfil" width="300">
+            </div>
+        </section>
 
-  <section id="sobre">
-    <img src="img/foto-perfil.png" alt="Foto de perfil" width="200">
-    <h2>Sobre mim</h2>
-    <p>Olá, sou o Bruno Fiorine...</p>
-  </section>
+        <h2>Sobre Mim</h2>
+        <p>Sou técnico em radiologia e atualmente estudo programação em Python...</p>
 
-  <section id="habilidades">
-    <h3>Minhas Habilidades</h3>
-    <table>
-      <tr><th>Tecnologia</th><th>Nível</th></tr>
-      <tr><td>HTML</td><td>Avançado</td></tr>
-      <tr><td>CSS</td><td>Avançado</td></tr>
-      <tr><td>JavaScript</td><td>Médio</td></tr>
-    </table>
-  </section>
+        <h3>Meus Hobbies</h3>
+        <p>Nos momentos de lazer, gosto de passear com minha família...</p>
 
-  <section id="contato">
-    <div class="form-container">
-      <h2>Contato</h2>
-      <form>
-        <div class="form-group">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome">
+        <h4>Minhas Preferências</h4>
+        <p>Gosto de jogos, tanto retrô quanto os atuais...</p>
+        <h9>Aqui você vai saber um pouco dos meus gostos:</h9>
+
+        <section id="gostos-container">
+            <div><img src="img/yuyu.png" alt="Yuyu Hakusho" width="300"></div>
+            <section id="gostos" class="preferencias">
+                <table>
+                    <tr><th>Categorias</th><th>Favoritos</th></tr>
+                    <tr><td>Banda</td><td>System of a Down</td></tr>
+                    <tr><td>Filme</td><td>O Senhor dos Anéis</td></tr>
+                    <tr><td>Jogo</td><td>Sonic the Hedgehog 2</td></tr>
+                    <tr><td>Anime</td><td>Yuyu Hakusho</td></tr>
+                </table>
+            </section>
+            <div><img src="img/system.png" alt="System of a Down" width="300"></div>
+        </section>
+
+        <h5>Projetos que pretendo realizar no futuro:</h5>
+        <div id="projetos">
+            <div class="projeto">
+                <strong>Morar em Portugal</strong><br>
+                <img src="img/bandeira.png" alt="Bandeira" width="300">
+            </div>
+            <div class="projeto">
+                <strong>Conhecer a culinária ao redor do mundo</strong><br>
+                <img src="img/culinaria.jpg" alt="Culinária" width="300">
+            </div>
+            <div class="projeto">
+                <strong>Aprender novas línguas</strong><br>
+                <img src="img/idiomas.jpg" alt="Idiomas" width="300">
+            </div>
+            <div class="projeto">
+                <strong>Conhecer o Japão</strong><br>
+                <img src="img/japao.jpg" alt="Japão" width="300">
+            </div>
+            <div class="projeto">
+                <strong>Provar outros tipos de cervejas</strong><br>
+                <img src="img/cerveja.jpg" alt="Cervejas" width="300">
+            </div>
         </div>
-        <div class="form-group">
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem"></textarea>
+
+        <section id="cadastro" class="form-container">
+            <h6>Cadastro</h6>
+            <form action="#" method="post">
+           
+            </form>
+        </section>
+
+        <section id="musica">
+            <audio controls>
+                <source src="audio/audioplayback.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </section>
+
+        <section id="video">
+            <video controls width="400">
+                <source src="video/videoplayback.mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        </section>
+
+        <section class="contact-info">
+        
+        </section>
+
+        <div class="social-icons">
+            <a href="#"><img src="img/instagram.png" alt="Instagram" width="40"></a>
+            <a href="#"><img src="img/linkedin.png" alt="LinkedIn" width="40"></a>
+            <a href="#"><img src="img/github.png" alt="GitHub" width="40"></a>
         </div>
-        <div class="button-group">
-          <button type="submit">Enviar</button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-  <div class="icone-instagram">
-    <a href="https://www.instagram.com/bmfiorine/" target="_blank">
-      <img src="img/instagram.png" alt="Instagram" width="40">
-    </a>
-  </div>
-
-  <div class="icone-rede linkedin">
-    <a href="https://www.linkedin.com/in/bruno-fiorine-9a00b3247/" target="_blank">
-      <img src="img/linkedin.png" alt="LinkedIn" width="40">
-    </a>
-  </div>
-
-  <div class="icone-rede github">
-    <a href="https://github.com/BrunoFiorine" target="_blank">
-      <img src="img/github.png" alt="GitHub" width="40">
-    </a>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 Bruno Fiorine</p>
-  </footer>
-
+    </main>
+    
+    <footer>
+        <p1>&copy; 2025 Bruno Mourelhe Fiorine</p1>
+    </footer>
 </body>
 </html>
