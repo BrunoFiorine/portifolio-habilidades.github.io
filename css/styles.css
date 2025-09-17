@@ -278,7 +278,7 @@ footer {
 
 
 /* --- RESPONSIVIDADE CELULAR ATÉ 768px --- */
-@media (max-width: 768px) {
+    (width: 768px) {
 
     /* MENU - links empilhados */
     nav a {
@@ -415,4 +415,5 @@ footer {
 
 
    
+
 
