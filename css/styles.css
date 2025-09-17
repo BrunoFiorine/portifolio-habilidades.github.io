@@ -275,3 +275,101 @@ footer {
   z-index: 1000;
 
 }
+
+/* --- RESPONSIVIDADE CELULAR --- */
+@media (max-width: 768px) {
+
+    /* MENU - links empilhados */
+    nav a {
+        display: block;
+        margin: 8px 0;
+        font-size: 22px;
+        padding: 8px 15px;
+    }
+
+    /* SEÇÃO GOSTOS - coluna e centralizado */
+    #gostos-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #gostos-container img {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* PROJETOS */
+    #projetos {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .projeto img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* FORMULÁRIO */
+    .form-container {
+        width: 95%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* QUADRO DE CONTATO */
+    .contact-info {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+        position: relative;
+    }
+
+    .info-item {
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .info-item .icon {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    /* ÁUDIO */
+    #musica {
+        width: 95%;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    /* VÍDEO */
+    .video-player {
+        width: 100%;
+        height: auto;
+    }
+
+    /* REDES SOCIAIS */
+    .icone-instagram img,
+    .icone-rede.linkedin img,
+    .icone-rede.github img {
+        width: 30px;
+        height: auto;
+        margin: 5px;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
