@@ -279,6 +279,111 @@ footer {
 
 
 
+@media (max-width: 2400px) {
+    body, header, main, footer, .form-container, .contact-info, #gostos-container, #projetos, .video-container {
+        max-width: 2400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav a {
+        font-size: 35px;
+        margin: 15px;
+    }
+
+    #home img {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    h2, h3, h4, h5, h6, p, h9 {
+        text-align: center;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    #gostos-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    #gostos-container img {
+        width: 200px;
+        height: auto;
+    }
+
+    table {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    #projetos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .projeto img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+        position: relative;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    }
+
+    #musica {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    audio {
+        width: 100%;
+    }
+
+    .video-container, .video-player {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
+        display: inline-block;
+        margin: 10px 10px;
+        bottom: auto;
+        text-align: center;
+    }
+
+    .icone-instagram img,
+    .icone-rede.linkedin img,
+    .icone-rede.github img {
+        width: 35px;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
 @media (max-width: 768px) {
 
     nav a {
@@ -295,35 +400,33 @@ footer {
         display: block;
     }
 
-     h3, h4, h5, h6, p, h9 {
+    h3, h4, h5, h6, p, h9 {
         text-align: center;
         margin-left: 0;
         padding: 0 10px;
     }
 
-
     h2 {
-        text-align: cente;
+        text-align: center;
         margin-left: 0;
         margin-top: 10px;
         padding: 0 10px;
     }
 
-#gostos-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    gap: 15px;              
-    padding: 0 10px;        
-    text-align: center;                 
-}
+    #gostos-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        gap: 15px;              
+        padding: 0 10px;        
+        text-align: center;                 
+    }
 
-#gostos-container img {
-    width: 150px;
-    height: autot;
-    margin: 0 auto;         
-}
-
+    #gostos-container img {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+    }
 
     table {
         width: 100%;
@@ -355,7 +458,7 @@ footer {
     }
 
     .button-group {
-        flex-direction: colum;
+        flex-direction: column;
         gap: 10px;
     }
 
@@ -421,6 +524,7 @@ footer {
         padding: 20px 0;
     }
 }
+
 
 
 
