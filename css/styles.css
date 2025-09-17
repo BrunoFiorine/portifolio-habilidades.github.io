@@ -1,6 +1,7 @@
 body {
     background-color: rgb(252, 251, 251);
     color: rgb(0, 0, 0);
+    margin: 0;
 }
 
 html {
@@ -528,6 +529,7 @@ footer {
         padding: 20px 0 !important;
     }
 }
+
 
 
 
