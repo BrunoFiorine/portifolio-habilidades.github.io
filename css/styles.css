@@ -400,6 +400,7 @@ footer {
         width: 150px !important;
         height: auto !important;
         margin: 0 auto !important;
+        margin-top: 15px;
         display: block !important;
     }
 
@@ -413,7 +414,7 @@ footer {
     h2 {
         text-align: center !important;
         margin-left: 0 !important;
-        margin-top: -80px;
+        margin-top: -40px;
         padding: 0 10px !important;
     }
 
@@ -526,6 +527,7 @@ footer {
         padding: 20px 0 !important;
     }
 }
+
 
 
 
