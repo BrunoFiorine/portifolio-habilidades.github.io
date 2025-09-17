@@ -245,22 +245,22 @@ footer {
 }
 
 .icone-instagram {
-    bottom: 20px;
-    margin-left: 1400px;
-    margin-top: -230px;
-    z-index: 1000;
+  bottom: 20px;
+  margin-left: 1400px;
+  margin-top: -230px;
+  z-index: 1000;
 }
 
 .icone-rede.linkedin {
-    bottom: 20px;   
-    margin-left: 1390px;
-    margin-top: 10px;     
-    z-index: 1000;
+  bottom: 20px;   
+  margin-left: 1390px;
+  margin-top: 10px;     
+  z-index: 1000;
 }
 
 .icone-rede.github {
-    bottom: 20px;
-    margin-left: 1401px;
-    margin-top: 15px;
-    z-index: 1000;
+  bottom: 20px;
+  margin-left: 1401px;
+  margin-top: 15px;
+  z-index: 1000;
 }
