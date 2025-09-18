@@ -278,260 +278,258 @@ footer {
 }
 
 
-
 @media (max-width: 2400px) {
+    
     body, header, main, footer, .form-container, .contact-info, #gostos-container, #projetos, .video-container {
         max-width: 2400px;
         margin: 0 auto;
     }
 }
 
+
 @media (max-width: 1024px) {
     nav a {
-        font-size: 35px;
-        margin: 15px;
+        font-size: 35px !important;
+        margin: 15px !important;
     }
 
     #home img {
-        width: 200px;
-        height: auto;
-        margin: 0 auto;
-        display: block;
+        width: 200px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        display: block !important;
     }
 
     h2, h3, h4, h5, h6, p, h9 {
-        text-align: center;
-        margin-left: 0;
-        padding: 0 20px;
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding: 0 20px !important;
     }
 
     #gostos-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 0 20px;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        padding: 0 20px !important;
     }
 
-    /* Mantendo !important apenas nas imagens específicas */
-    #gostos-container img.bandeira,
-    #gostos-container img.cerveja,
-    #gostos-container img.idiomas,
-    #gostos-container img.japao {
+    #gostos-container img {
         width: 200px !important;
         height: auto !important;
     }
 
     table {
-        width: 90%;
-        font-size: 16px;
+        width: 90% !important;
+        font-size: 16px !important;
     }
 
     #projetos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 30px;
-        justify-content: center;
-        padding: 10px;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        gap: 30px !important;
+        justify-content: center !important;
+        padding: 10px !important;
     }
 
     .projeto img {
-        width: 200px;
-        height: 200px;
+        width: 200px !important;
+        height: 200px !important;
     }
 
     .form-container {
-        width: 90%;
-        margin: 20px auto;
+        width: 90% !important;
+        margin: 20px auto !important;
     }
 
     .contact-info {
-        width: 90%;
-        margin: 20px auto;
-        padding: 20px;
-        position: relative;
+        width: 90% !important;
+        margin: 20px auto !important;
+        padding: 20px !important;
+        position: relative !important;
         box-shadow: 0 5px 10px rgba(0,0,0,0.05);
     }
 
     #musica {
-        width: 90%;
-        margin: 20px auto;
-        text-align: center;
+        width: 90% !important;
+        margin: 20px auto !important;
+        text-align: center !important;
     }
 
     audio {
-        width: 100%;
+        width: 100% !important;
     }
 
     .video-container, .video-player {
-        width: 90%;
-        height: auto;
-        margin: 20px auto;
+        width: 90% !important;
+        height: auto !important;
+        margin: 20px auto !important;
     }
 
     .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
-        display: inline-block;
-        margin: 10px 10px;
-        bottom: auto;
-        text-align: center;
+        display: inline-block !important;
+        margin: 10px 10px !important;
+        bottom: auto !important;
+        text-align: center !important;
     }
 
     .icone-instagram img,
     .icone-rede.linkedin img,
     .icone-rede.github img {
-        width: 35px;
-        height: auto;
+        width: 35px !important;
+        height: auto !important;
     }
 
     footer {
-        margin-top: 50px;
-        text-align: center;
+        margin-top: 50px !important;
+        text-align: center !important;
     }
 }
+
 
 @media (max-width: 768px) {
 
     nav a {
-        display: block;
-        margin: 8px 0;
-        font-size: 22px;
-        padding: 8px 12px;
+        display: block !important;
+        margin: 8px 0 !important;
+        font-size: 22px !important;
+        padding: 8px 12px !important;
     }
 
     #home img {
-        width: 150px;
-        height: auto;
-        margin: 0 auto;
-        display: block;
-    }
-
-    h3, h4, h5, h6, p, h9 {
-        text-align: center;
-        margin-left: 0;
-        padding: 0 10px;
-    }
-
-    h2 {
-        text-align: center;
-        margin-left: 0;
-        margin-top: 10px;
-        padding: 0 10px;
-    }
-
-    #gostos-container {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;    
-        gap: 15px;              
-        padding: 0 10px;        
-        text-align: center;                 
-    }
-
-    /* Mantendo !important apenas nas imagens específicas */
-    #gostos-container img.bandeira,
-    #gostos-container img.cerveja,
-    #gostos-container img.idiomas,
-    #gostos-container img.japao {
         width: 150px !important;
         height: auto !important;
         margin: 0 auto !important;
+        display: block !important;
     }
 
+     h3, h4, h5, h6, p, h9 {
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding: 0 10px !important;
+    }
+
+
+    h2 {
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-top: 10px;
+        padding: 0 10px !important;
+    }
+
+#gostos-container {
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;    
+    gap: 15px !important;              
+    padding: 0 10px !important;        
+    text-align: center;                 
+}
+
+#gostos-container img {
+    width: 150px !important;
+    height: auto !important;
+    margin: 0 auto !important;         /* garante centralização dentro do container */
+}
+
+
     table {
-        width: 100%;
-        font-size: 14px;
+        width: 100% !important;
+        font-size: 14px !important;
     }
 
     th, td {
-        padding: 5px;
-        text-align: center;
+        padding: 5px !important;
+        text-align: center !important;
     }
 
     #projetos {
-        flex-direction: column;
-        gap: 15px;
-        padding: 10px;
-        max-width: 100%;
-        text-align: center;
+        flex-direction: column !important;
+        gap: 15px !important;
+        padding: 10px !important;
+        max-width: 100% !important;
+        text-align: center !important;
     }
 
     .projeto img {
-        width: 150px;
-        height: 150px;
+        width: 150px !important;
+        height: 150px !important;
     }
 
     .form-container {
-        width: 95%;
-        padding: 15px;
-        margin: 20px auto;
+        width: 95% !important;
+        padding: 15px !important;
+        margin: 20px auto !important;
     }
 
     .button-group {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: column !important;
+        gap: 10px !important;
     }
 
     .contact-info {
-        width: 95%;
-        margin: 20px auto;
-        padding: 15px;
-        position: relative;
-        box-shadow: none;
+        width: 95% !important;
+        margin: 20px auto !important;
+        padding: 15px !important;
+        position: relative !important;
+        box-shadow: none !important;
     }
 
     .contact-info h8, .contact-info p4 {
-        text-align: center;
-        margin-left: 0;
+        text-align: center !important;
+        margin-left: 0 !important;
     }
 
     .info-item {
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-bottom: 10px;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        margin-bottom: 10px !important;
     }
 
     .info-item .icon {
-        font-size: 18px;
-        margin-right: 8px;
+        font-size: 18px !important;
+        margin-right: 8px !important;
     }
 
     #musica {
-        width: 95%;
-        margin: 20px auto;
-        text-align: center;
+        width: 95% !important;
+        margin: 20px auto !important;
+        text-align: center !important;
     }
 
     audio {
-        width: 100%;
+        width: 100% !important;
     }
 
     .video-container, .video-player {
-        width: 100%;
-        height: auto;
-        margin: 20px auto;
+        width: 100% !important;
+        height: auto !important;
+        margin: 20px auto !important;
     }
 
     .icone-instagram, .icone-rede.linkedin, .icone-rede.github {
-        margin-left: 0;
-        margin-top: 10px;
-        bottom: auto;
-        display: block;
-        text-align: center;
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+        bottom: auto !important;
+        display: block !important;
+        text-align: center !important;
     }
 
     .icone-instagram img,
     .icone-rede.linkedin img,
     .icone-rede.github img {
-        width: 30px;
-        height: auto;
-        margin: 5px auto;
+        width: 30px !important;
+        height: auto !important;
+        margin: 5px auto !important;
     }
 
     footer {
-        margin-top: 50px;
-        text-align: center;
-        padding: 20px 0;
+        margin-top: 50px !important;
+        text-align: center !important;
+        padding: 20px 0 !important;
     }
 }
+
+
 
 
 
